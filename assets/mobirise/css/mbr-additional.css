@@ -3,43 +3,43 @@ body {
 }
 .display-1 {
   font-family: 'Lora', serif;
-  font-size: 5rem;
-  line-height: 1.1;
-}
-.display-1 > .mbr-iconfont {
-  font-size: 6.25rem;
-}
-.display-2 {
-  font-family: 'Pacifico', handwriting;
   font-size: 3rem;
   line-height: 1.1;
 }
-.display-2 > .mbr-iconfont {
+.display-1 > .mbr-iconfont {
   font-size: 3.75rem;
 }
+.display-2 {
+  font-family: 'Pacifico', handwriting;
+  font-size: 1.7rem;
+  line-height: 1.1;
+}
+.display-2 > .mbr-iconfont {
+  font-size: 2.125rem;
+}
 .display-4 {
+  font-family: 'Lora', serif;
+  font-size: 0.6rem;
+  line-height: 1.5;
+}
+.display-4 > .mbr-iconfont {
+  font-size: 0.75rem;
+}
+.display-5 {
   font-family: 'Lora', serif;
   font-size: 1.1rem;
   line-height: 1.5;
 }
-.display-4 > .mbr-iconfont {
-  font-size: 1.375rem;
-}
-.display-5 {
-  font-family: 'Lora', serif;
-  font-size: 1.6rem;
-  line-height: 1.5;
-}
 .display-5 > .mbr-iconfont {
-  font-size: 2rem;
+  font-size: 1.375rem;
 }
 .display-7 {
   font-family: 'Lora', serif;
-  font-size: 1.2rem;
+  font-size: 0.5rem;
   line-height: 1.5;
 }
 .display-7 > .mbr-iconfont {
-  font-size: 1.5rem;
+  font-size: 0.625rem;
 }
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
@@ -48,34 +48,34 @@ body {
 /* 0.65 - min scale variable, may vary */
 @media (max-width: 992px) {
   .display-1 {
-    font-size: 4rem;
+    font-size: 2.4rem;
   }
 }
 @media (max-width: 768px) {
   .display-1 {
-    font-size: 3.5rem;
-    font-size: calc( 2.4rem + (5 - 2.4) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.1 * (2.4rem + (5 - 2.4) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 2.1rem;
+    font-size: calc( 1.7rem + (3 - 1.7) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.1 * (1.7rem + (3 - 1.7) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
-    font-size: 2.4rem;
-    font-size: calc( 1.7rem + (3 - 1.7) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.3 * (1.7rem + (3 - 1.7) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.36rem;
+    font-size: calc( 1.245rem + (1.7 - 1.245) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.3 * (1.245rem + (1.7 - 1.245) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-4 {
+    font-size: 0.48rem;
+    font-size: calc( 0.86rem + (0.6 - 0.86) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (0.86rem + (0.6 - 0.86) * ((100vw - 20rem) / (48 - 20))));
+  }
+  .display-5 {
     font-size: 0.88rem;
     font-size: calc( 1.0350000000000001rem + (1.1 - 1.0350000000000001) * ((100vw - 20rem) / (48 - 20)));
     line-height: calc( 1.4 * (1.0350000000000001rem + (1.1 - 1.0350000000000001) * ((100vw - 20rem) / (48 - 20))));
   }
-  .display-5 {
-    font-size: 1.28rem;
-    font-size: calc( 1.21rem + (1.6 - 1.21) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.21rem + (1.6 - 1.21) * ((100vw - 20rem) / (48 - 20))));
-  }
   .display-7 {
-    font-size: 0.96rem;
-    font-size: calc( 1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 0.4rem;
+    font-size: calc( 0.825rem + (0.5 - 0.825) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (0.825rem + (0.5 - 0.825) * ((100vw - 20rem) / (48 - 20))));
   }
 }
 /* Buttons */
@@ -596,12 +596,12 @@ a:hover {
 }
 .form-control {
   font-family: 'Lora', serif;
-  font-size: 1.1rem;
+  font-size: 0.6rem;
   line-height: 1.5;
   font-weight: 400;
 }
 .form-control > .mbr-iconfont {
-  font-size: 1.375rem;
+  font-size: 0.75rem;
 }
 .form-control:hover,
 .form-control:focus {
@@ -610,12 +610,12 @@ a:hover {
 }
 .form-control:-webkit-input-placeholder {
   font-family: 'Lora', serif;
-  font-size: 1.1rem;
+  font-size: 0.6rem;
   line-height: 1.5;
   font-weight: 400;
 }
 .form-control:-webkit-input-placeholder > .mbr-iconfont {
-  font-size: 1.375rem;
+  font-size: 0.75rem;
 }
 blockquote {
   border-color: #05386b;
